@@ -1,65 +1,36 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About Project
 
-## Available Scripts
+This is a simple time tracking application built using React.
 
-In the project directory, you can run:
+## Project Live 🔗 Link
+- ### Firebase Deployed Link: 
+    - [Click Here](https://timer-app-2185b.web.app)
 
-### `npm start`
+## Features
+### Timer section: 
+- Includes a digital clock and three buttons (Start, Pause, and Save). The digital clock displays the timer time in HH:MM:SS format.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tasks section: 
+- Displays a list of saved tasks, showing the task title, task description and time tracked in HH:MM:SS format.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm run build`
+## Functionality
+> Start button: Starts the timer and updates the digital clock every second.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+>Pause button: Pauses the timer and stops the clock from updating.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Save button: Opens a modal to save the current task. The user can enter a title and description for the task and click save. The task is then added to the list of saved tasks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Edit button: Allows the user to edit the description of a saved task by clicking on the Edit button. An edit modal opens up, where the user can edit the description and click save to update the task.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech stack
+- React.js
+- Reactstrap: A React Bootstrap library for styling the app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Running the app
+- Clone the repository
+- Run `npm install` to install the necessary dependencies.
+- Run npm start to start the development server
+Open http://localhost:3000/ in your browser to see the application.
